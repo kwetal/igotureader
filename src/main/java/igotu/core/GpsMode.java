@@ -7,7 +7,7 @@ public enum GpsMode {
     GpsDongleMode(0x00),
     GpsTracerMode(0x01),
     GpsConfigureMode(0x03);
-    private byte mode;
+    private final byte mode;
     GpsMode(int xx) {
         mode = (byte)xx;
     }
